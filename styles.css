@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Input and Button Styles */
+#pokemonName {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#fetchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fetchButton:hover {
+    background-color: #ffaa00;
+}
+
+/* Pokemon Card Styles */
+#pokemonCard {
+    display: none; /* Hidden initially */
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#pokemonCard img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#pokemonCard label {
+    display: block;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Error Message */
+#error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
